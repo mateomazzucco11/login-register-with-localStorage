@@ -1,4 +1,4 @@
-import './SecondPage.css'
+import './RegisterPage.css'
 import LeftSection from '../LeftSection/LeftSection'
 import ErrorMsg from '../../components/ErrorMsg';
 
@@ -27,10 +27,12 @@ const SecondPage = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(validate.name + ' ' + validate.email + ' ' + validate.password)
+        localStorage.setItem('user', validate.email)
+        localStorage.setItem('password', validate.password)
+        localStorage.setItem('name', validate.name)
         e.target.reset();
         setError(false)
-        history.push('/secondregister')
+        history.push('/aboutregister')
     }
 
     return (
@@ -47,7 +49,7 @@ const SecondPage = () => {
                             <p className='return'>Volver</p>
                         </Link>
                         <div className='info-page'>
-                            <h2>PASO 01/03</h2>
+                            <h2>PASO 01/02</h2>
                             <p>Personal Info.</p>
                         </div>
                     </div>

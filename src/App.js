@@ -7,9 +7,10 @@ import {
   Route,
   Link
 } from 'react-router-dom';
-import SecondPage from './pages/SecondPage/SecondPage';
-import ThreePage from './pages/ThreePage/ThreePage';
-import FourPage from './pages/FourPage/FourPage';
+import RegisterPage from './pages/RegisterPage/RegisterPage';
+import RegisterAboutPage from './pages/RegisterAboutPage/RegisterAboutPage';
+import LoginPage from './pages/LoginPage/LoginPage';
+import Home from './pages/Home/Home';
 
 const App = (props) => {
 
@@ -22,13 +23,16 @@ const App = (props) => {
             <FirstPage />
           </Route>
           <Route path='/register' exact>
-            <SecondPage />
+            <RegisterPage />
           </Route>
-          <Route path='/secondregister' exact>
-            <ThreePage />
+          <Route path='/aboutregister' exact>
+            <RegisterAboutPage />
           </Route>
-          <Route path='/threeregister' exact>
-            <FourPage />
+          <Route path='/login' exact>
+            <LoginPage />
+          </Route>
+          <Route path='/home' exacat>
+            <Home />
           </Route>
         </Switch>
       </div>
