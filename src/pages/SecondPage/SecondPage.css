@@ -1,0 +1,246 @@
+.containe-second-page {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.right-section .top-second-section{
+    position: absolute;
+}
+
+.right-section .top-second-section .return-home {
+    position: absolute;
+    top: 75px;
+    left: 82px;
+    display: flex;
+    text-decoration: none;
+    color: #8692A6;
+}
+
+.right-section .top-second-section .info-page h2 {
+    position: absolute;
+    top: 75px;
+    left: 603px;
+    font-weight: 500;
+    color: #BDBDBD;
+    font-family: Inter;
+    font-size: 14px;
+    line-height: 16,94px;
+    width: 80px;
+    height: 17px;
+}
+
+.right-section .top-second-section .info-page p {
+    width: 106px;
+    height: 19px;
+    font-weight: 600;
+    font-family: Inter;
+    font-size: 16px;
+    color: #8692A6;
+    line-height: 19,36px;
+    position: absolute;
+    top: 96px;
+    left: 577px;
+}
+
+.midle-second-section .first-item h1 {
+    width: 419px;
+    height: 36px;
+    position: absolute;
+    top: 193px;
+    left: 127px;
+    font-weight: 700;
+    font-family: Inter;
+    font-size: 30px;
+    line-height: 36,31px;
+    color:#000000;
+}
+
+.midle-second-section .first-item p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #8692A6;
+    position: absolute;
+    width: 411px;
+    height: 56px;
+    top: 239px;
+    left: 127px;
+}
+
+.midle-second-section .form-item .item-one h2 {
+    position: absolute;
+    width: 146px;
+    height: 19px;
+    top: 335px;
+    left: 127px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 19,36px;
+    font-size: 16px;
+    color: #696F79;
+}
+
+.midle-second-section .form-item .item-one input {
+    position: absolute;
+    left: 127px;
+    top: 368px;
+    width: 426px;
+    height: 64px;
+    border-radius: 6px;
+    background: #ffffff;
+    border: 1px solid #8692A6;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    padding-top: 22px;
+    padding-bottom: 23px;
+    padding-left: 30px;
+    color: #494949;
+    font-size: 14px;
+}
+
+.midle-second-section .form-item .item-second h2 {
+    position: absolute;
+    width: 146px;
+    height: 19px;
+    top: 456px;
+    left: 127px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 19,36px;
+    font-size: 16px;
+    color: #696F79;
+}
+
+.midle-second-section .form-item .item-second input {
+    position: absolute;
+    left: 127px;
+    top: 489px;
+    width: 426px;
+    height: 64px;
+    border-radius: 6px;
+    background: #ffffff;
+    border: 1px solid #8692A6;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    padding-top: 22px;
+    padding-bottom: 23px;
+    padding-left: 30px;
+    color: #494949;
+    font-size: 14px;
+}
+
+.midle-second-section .form-item .item-three h2 {
+    position: absolute;
+    width: 146px;
+    height: 19px;
+    top: 577px;
+    left: 127px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 19,36px;
+    font-size: 16px;
+    color: #696F79;
+}
+
+.midle-second-section .form-item .item-three input {
+    position: absolute;
+    left: 127px;
+    top: 611px;
+    width: 426px;
+    height: 64px;
+    border-radius: 6px;
+    background: #ffffff;
+    border: 1px solid #8692A6;
+    box-shadow: 0px 4px 10px 3px rgba(0, 0, 0, 0.11);
+    padding-top: 22px;
+    padding-bottom: 23px;
+    padding-left: 30px;
+    color: #494949;
+    font-size: 14px;
+}
+
+.midle-second-section .check-item {
+    position: absolute;
+    left: 127px;
+    top: 705px;
+    display: flex;
+}
+
+.midle-second-section .check-item .checkone {
+    background-color: green;
+}
+
+.midle-second-section .check-item p {
+    margin-left: 15px;
+    margin-top: -2px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19,36px;
+    color: #696F79;
+    width: 263px;
+    height: 19px;
+}
+
+.midle-second-section .register-item {
+    position: absolute;
+    left: 127px;
+    top: 756px;
+    width: 426px;
+    height: 64px;
+    
+    
+}
+
+.midle-second-section .register-item input{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background: #4f934a;
+    color: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    border-radius: 6px;
+    height: 100%;
+    border: none;
+}
+.midle-second-section .o-item {
+    position: absolute;
+    top: 845px;
+    left: 334px;
+    color:#BABABA;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.midle-second-section .register-google-item a {
+    width: 426px;
+    height: 63px;
+    position: absolute;
+    top: 870px;
+    left: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.midle-second-section .register-google-item a p{
+    text-decoration: none;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 63px;
+}

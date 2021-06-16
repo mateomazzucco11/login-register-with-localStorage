@@ -1,0 +1,236 @@
+.container-first-page {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/* Right section */
+
+.right-section {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+}
+
+.right-section .top-section {
+    position: absolute;
+    right: 81px;
+    top: 70px;
+}
+
+.right-section .top-section p {
+    color: #8692A6;
+    line-height: 28px;
+    font-size: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.right-section .top-section p a {
+    color: #569B51;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.right-section h1 {
+    position: absolute;
+    left: 127px;
+    top: 233px;
+    color: #000000;
+    font-weight: bold;
+    font-family: Inter;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+}
+
+.right-section .text-title {
+    position: absolute;
+    top: 279px;
+    left: 127px;
+    color: #8692A6;
+    font-size: 18px;
+    line-height: 28px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.button-developer {
+    position: absolute;
+    top: 370px;
+    left: 127px;
+    width: 426px;
+    height: 108px;
+    cursor: pointer;
+}
+
+.button-developer .icon-developer {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    width: 52px;
+    height: 52px;
+}
+
+.button-developer .icon-developer img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.button-developer .icon-developer svg {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    color: #ffffff;
+}
+
+.button-developer h2 {
+    position: absolute;
+    top: 26px;
+    left: 108px;
+    color: #000000;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-family: Inter;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 87px;
+    height: 19px;
+}
+
+.button-developer p {
+    width: 264px;
+    height: 34px;
+    position: absolute;
+    left: 108px;
+    top: 49px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #8692A6;
+}
+
+.button-business {
+    width: 426px;
+    height: 108px;
+    position: absolute;
+    cursor: pointer;
+    top: 506px;
+    left: 127px;
+}
+
+.button-business .icon-business {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    width: 52px;
+    height: 52px;
+}
+
+.button-business .icon-business .polygon-business {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.button-business .icon-business svg{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    color: #569B51;
+}
+
+.button-business h2 {
+    position: absolute;
+    top: 26px;
+    left: 108px;
+    color: #000000;
+    font-size: 16px;
+    line-height: 19.36px;
+    font-family: Inter;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    width: 87px;
+    height: 19px;
+}
+
+.button-business p {
+    width: 264px;
+    height: 34px;
+    position: absolute;
+    left: 108px;
+    top: 49px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    display: flex;
+    align-items: center;
+    color: #8692A6;
+}
+
+.button-developer:hover, .button-business:hover {
+    border: 1px solid #4f934a;
+    box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 6px;
+}
+
+.button-developer:hover .arrow {
+    content: '';
+    height: 1.67px;
+    width: 12.5px;
+    background: #569B51;
+    position: absolute;
+    top:53.17px;
+    right:37.17px;
+    border-radius: 6px;
+}
+
+.button-developer:hover .arrow::before {
+    content: '';
+    height: 1.67px;
+    width: 6.25px;
+    background: #569B51;
+    position: absolute;
+    top: 2px;
+    transform: rotate(-38deg);
+    right:0px;
+    border-radius: 6px;
+}
+.button-developer:hover .arrow::after {
+    content: '';
+    height: 1.67px;
+    width: 6.25px;
+    background: #569B51;
+    position: absolute;
+    top: -2px;
+    transform: rotate(38deg);
+    right:0px;
+    border-radius: 6px;
+}

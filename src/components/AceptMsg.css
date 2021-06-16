@@ -1,0 +1,84 @@
+.acept-message {
+    opacity: 0;
+    display: none;
+}
+
+.acept-message.active {
+    opacity: 1;
+    display: flex;
+    background: rgba(0, 0, 0, 0.2);
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+}
+
+.acept-message.active .container-acept {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.12);
+    display: flex;
+    width: 556px;
+    height: 281px;
+    z-index: 5;
+    flex-direction: column;
+}
+
+.acept-message.active .container-acept h1 {
+    width: 242px;
+    height: 33px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 24px;
+    color: #000000;
+    line-height: 33px;
+    font-weight: bold;
+    font-family: IBM Plex Sans;
+}
+
+.acept-message.active .container-acept p {
+    width: 626px;
+    height: 48px;
+    margin-top: 44px;
+    margin-left: 40px;
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.acept-message.active .container-acept div { 
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.acept-message.active .container-acept div a {
+    margin-left: 40px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    width: 164px;
+    height: 56px;
+    padding: 16px 58px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #000000;
+    display: flex;
+}
+
+.acept-message.active .container-acept div .go-nuwe {
+    margin-left: 16px;
+    background: #000000;
+    border-radius: 6px;
+    width: 280px;
+    height: 56px;
+    padding: 16px 72px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    display: flex;
+}
