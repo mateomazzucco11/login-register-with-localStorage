@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/mateomazzucco11/login-register-with-localStorage/static/css/main.5bfb151e.chunk.css",
-    "main.js": "/mateomazzucco11/login-register-with-localStorage/static/js/main.3215bc10.chunk.js",
-    "main.js.map": "/mateomazzucco11/login-register-with-localStorage/static/js/main.3215bc10.chunk.js.map",
-    "runtime-main.js": "/mateomazzucco11/login-register-with-localStorage/static/js/runtime-main.5b72fd77.js",
-    "runtime-main.js.map": "/mateomazzucco11/login-register-with-localStorage/static/js/runtime-main.5b72fd77.js.map",
-    "static/js/2.7dc6fb6b.chunk.js": "/mateomazzucco11/login-register-with-localStorage/static/js/2.7dc6fb6b.chunk.js",
-    "static/js/2.7dc6fb6b.chunk.js.map": "/mateomazzucco11/login-register-with-localStorage/static/js/2.7dc6fb6b.chunk.js.map",
-    "index.html": "/mateomazzucco11/login-register-with-localStorage/index.html",
-    "static/css/main.5bfb151e.chunk.css.map": "/mateomazzucco11/login-register-with-localStorage/static/css/main.5bfb151e.chunk.css.map",
-    "static/js/2.7dc6fb6b.chunk.js.LICENSE.txt": "/mateomazzucco11/login-register-with-localStorage/static/js/2.7dc6fb6b.chunk.js.LICENSE.txt",
-    "static/media/Background.d0f96ff7.png": "/mateomazzucco11/login-register-with-localStorage/static/media/Background.d0f96ff7.png"
+    "main.css": "/login-register-with-localStorage/static/css/main.5bfb151e.chunk.css",
+    "main.js": "/login-register-with-localStorage/static/js/main.3215bc10.chunk.js",
+    "main.js.map": "/login-register-with-localStorage/static/js/main.3215bc10.chunk.js.map",
+    "runtime-main.js": "/login-register-with-localStorage/static/js/runtime-main.6ff83f60.js",
+    "runtime-main.js.map": "/login-register-with-localStorage/static/js/runtime-main.6ff83f60.js.map",
+    "static/js/2.7dc6fb6b.chunk.js": "/login-register-with-localStorage/static/js/2.7dc6fb6b.chunk.js",
+    "static/js/2.7dc6fb6b.chunk.js.map": "/login-register-with-localStorage/static/js/2.7dc6fb6b.chunk.js.map",
+    "index.html": "/login-register-with-localStorage/index.html",
+    "static/css/main.5bfb151e.chunk.css.map": "/login-register-with-localStorage/static/css/main.5bfb151e.chunk.css.map",
+    "static/js/2.7dc6fb6b.chunk.js.LICENSE.txt": "/login-register-with-localStorage/static/js/2.7dc6fb6b.chunk.js.LICENSE.txt",
+    "static/media/Background.d0f96ff7.png": "/login-register-with-localStorage/static/media/Background.d0f96ff7.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b72fd77.js",
+    "static/js/runtime-main.6ff83f60.js",
     "static/js/2.7dc6fb6b.chunk.js",
     "static/css/main.5bfb151e.chunk.css",
     "static/js/main.3215bc10.chunk.js"
