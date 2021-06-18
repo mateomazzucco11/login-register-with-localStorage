@@ -100,13 +100,6 @@ const SecondPage = () => {
                                 <input type='submit' value='Registrar cuenta' />
                             </div>
                         </form>
-                        <span className='o-item'>o</span>
-                        <div className='register-google-item'>
-                            <Link to='/pepe'>
-                                <FcGoogle />
-                                <p>Regístate con Google</p>
-                            </Link>
-                        </div>
                     </div>
                 </div>
             </div>
